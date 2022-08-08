@@ -1,6 +1,5 @@
 package com.bridge.desafio_bridge;
 
-import com.bridge.desafio_bridge.num.Num;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

@@ -3,24 +3,17 @@ package com.bridge.desafio_bridge.num;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-
 @RestController
 @RequestMapping(path = "api/v1/numbers")
-public class NumController
+public class AlgorithmController
 {
     @Autowired
-    private NumService service;
+    private AlgorithmService service;
 
     @PostMapping
-    public Num addNum(@RequestBody Num num)
+    public AlgorithmResult putNum(@RequestBody Algorithm algorithm)
     {
-        return service.saveNum(num);
+        return service.result(algorithm);
     }
 
-    @GetMapping
-    public List<Num> getAllNums()
-    {
-        return service.getNums();
-    }
 }
