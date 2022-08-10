@@ -2,7 +2,7 @@
 
 ## Back End
 ### Tecnologias Utilizadas
-Java
+Java 17
 Spring Boot
 Maven
 
