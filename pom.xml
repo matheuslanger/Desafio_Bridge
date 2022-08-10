@@ -8,7 +8,7 @@
 		<version>2.7.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.bridge</groupId>/home/langer
+	<groupId>com.bridge</groupId>
 	<artifactId>desafio_bridge</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>desafio_bridge</name>
@@ -43,6 +43,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<executable>true</executable>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
