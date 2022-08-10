@@ -2,9 +2,11 @@
 
 ## Back End
 ### Tecnologias Utilizadas
+```shell
 Java 17
 Spring Boot
 Maven
+```
 
 ### Como executar localmente
 ```shell
@@ -17,6 +19,7 @@ Ex: `http://localhost:8080/api/v1/numbers`
 
 ## Front End
 ### Tecnologias Utilizadas
+```shell
 JavaScript
 React
 npm
@@ -24,6 +27,7 @@ react-bootstrap
 axios
 CSS
 HTML
+```
 
 ### Como executar localmente
 ```shell
