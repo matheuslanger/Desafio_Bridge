@@ -31,5 +31,5 @@ cd frontend/
 cp .env.local .env
 npm install
 npm start
-Sua aplicação estará disponível em `https://localhost:3000/`
 ```
+Sua aplicação estará disponível em `https://localhost:3000/`
