@@ -13,7 +13,7 @@ export JAVA_HOME=/path/to/jdk-17
 ./mvnw spring-boot:run
 ```
 Sua aplicação estará disponível em `http://localhost:8080/`
-Ex: `Sua aplicação estará disponível em `http://localhost:8080/api/v1/numbers`
+Ex: `http://localhost:8080/api/v1/numbers`
 
 ## Front End
 ### Tecnologias Utilizadas
