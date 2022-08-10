@@ -36,4 +36,6 @@ cp .env.local .env
 npm install
 npm start
 ```
-Sua aplicação estará disponível em `https://localhost:3000/`
+Sua aplicação estará disponível em `http://localhost:3000/`
+
+![ExemploAplicacao](https://user-images.githubusercontent.com/40149602/183799037-9862e25e-9a5c-4928-b2df-8fbebc1296a6.jpeg)
